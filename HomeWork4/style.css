@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reg-main{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-family: Arial, sans-serif;
+
+}
+.reg-section{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start
+}
+.personal-info,
+.aboutyou-info {
+    width: 320px;
+}
+.personal-info-filedset{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+.personal-info-legend{
+    padding: 0 8px;
+    color: #000000;
+    font-weight: bold;
+}
+.personal-info-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input,select,textarea{
+    padding: 11px 12px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    color: #000000;
+}
+.aboutyou-info-filedset{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+.aboutyou-info-legend{
+    padding: 0 8px;
+    color: #000000;
+    font-weight: bold;
+}
+.sub-btn{
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 8px;
+    background-color: chartreuse;
+    color: #fff;
+    cursor: pointer;
+}
+.res-btn{
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 8px;
+    background-color: chocolate;
+    color: #fff;
+    cursor: pointer;
+}

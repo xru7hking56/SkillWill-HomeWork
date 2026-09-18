@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reg Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="reg-main">
+        <section class="reg-section">
+            <div class="personal-info">
+                <fieldset class="personal-info-filedset">
+                    <legend class="personal-info-legend">Personal Info</legend>
+                    <form class="personal-info-form" action="">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required placeholder="Name">
+                        <label for="surname">Surname</label>
+                        <input type="text" name="surname" id="surname" required placeholder="Surname">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Email">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required placeholder="Password">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" placeholder="Age">
+                        <label for="date">Birth Date</label>
+                        <input type="date" name="date" id="date" required>
+                        <label for="city">City</label>
+                        <select name="city" id="city" required>
+                            <option value selected disabled>Chose City</option>
+                            <option value="tbilisi">Tbilisi</option>
+                            <option value="batumi">Batumi</option>
+                            <option value="qutaisi">Qutaisi</option>
+                        </select>
+                        <label for="">Gender</label>
+                        <div class="gender-div">
+                            <label>
+                                <input type="radio" name="gender" required value="male">
+                                მამრობითი
+                            </label>
+
+                            <label>
+                                <input type="radio" name="gender" required value="female">
+                                მდედრობითი
+                            </label>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="aboutyou-info">
+                <fieldset class="aboutyou-info-filedset">
+                    <legend class="aboutyou-info-legend">About You</legend>
+                    <form class="personal-info-form" action="">
+                        <label for="">Skills</label>
+                        <div class="skill-div">
+                            <label><input type="checkbox" name="Html" value="Html">Html</label>
+                            <label><input type="checkbox" name="Css" value="Css">Css</label>
+                            <label><input type="checkbox" name="Js" value="Js">Js</label>
+                        </div>
+                        <label for="bio">Bio</label><textarea name="bio" id="bio" placeholder="Bio..."></textarea><label>
+                        <input type="checkbox" name="accept" value="accept">I agree to the terms and conditions</label>
+                        <div class="btn-div">
+                            <button class="sub-btn" type="submit">Submit</button>
+                            <button class="res-btn" type="reset">Clear</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
